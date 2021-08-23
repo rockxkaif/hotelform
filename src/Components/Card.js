@@ -92,12 +92,12 @@ export default function Card() {
           <div className="item">
             <label for="phone">Phone<span>*</span></label>
             <input id="phone" type="tel"   name="phone" />
-          </div>
-     
+          
+     </div>
       <br/>
      
       <legend>Dates</legend>
-      <div className="columns">
+      
       <div className="item">
       <label for="checkindate">Check-in Date <span>*</span></label>
       <input id="checkindate" type="date" name="checkindate" />
@@ -149,10 +149,7 @@ export default function Card() {
       <option value="19">5</option>
       </select>
       </div>   
-      <div className="item" style={{width:'100%'}}>
-      <label for="room">Number of rooms</label>
-      <input id="room" type="number" name="room" />
-      </div>
+     
       <div className="item">
       <p>Room 1 type</p>
       <select>
@@ -170,15 +167,20 @@ export default function Card() {
       <option value="26">Deluxe</option>
       <option value="27">Suite</option>
       </select>
-      </div>    
-      <div className="btn-block">
-      <button type="submit" href="/">Submit</button>
+    
+   
       </div>
-      
       </div>
+      <div className="item" style={{width:'100%'}}>
+      <label for="room">Instruction</label>
+    
+      <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
       </div>
     </form>
     </div>
+    <div className="text-center">
+      <button className="btn btn-warning text-white w-100 m-auto  text-uppercase btn-lg " type="button">Book My Room</button>
+      </div>
 							<div>
 								<buttons style={{fontSize:'30px',color:'red' }} onClick={() => setModalisopen(false)}><i class="fa fa-close"></i></buttons>
 							</div>

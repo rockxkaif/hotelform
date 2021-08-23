@@ -1,9 +1,9 @@
 body{
 	margin:0;
 	padding:0;
-	background:#fff;
+	/* background:#fff; */
 	font-family: 'Raleway',sans-serif;
-	color: #fff;
+	/* color: #fff; */
 	z-index:auto;
 }
 .banner{
@@ -88,7 +88,7 @@ line-height: 83px;
 legend {
 padding: 10px;      
 font-family: Roboto, Arial, sans-serif;
-font-size: 4em;
+font-size: 3em;
 color: #fff;
 background-color: goldenrod;
 }
